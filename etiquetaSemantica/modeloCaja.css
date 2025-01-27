@@ -1,0 +1,19 @@
+/* ctrl + k + c para comentar automaticamente */
+/* ctrl + k + u para descomentar automaticamente */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caja{
+    background: #3793ef;
+    margin: 20px 30px 50px 10px;
+    width: 200px; 
+    padding: 20px;
+    border: 20px solid black;
+}
+
+.caja p{
+    background: #eee5e9;
+}
