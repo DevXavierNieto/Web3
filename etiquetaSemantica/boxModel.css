@@ -3,36 +3,72 @@
     padding: 0;
 }
 
+.articles{
+    border-bottom: 1px solid #eee;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+aside{
+    background: orange;
+    float: left;
+    min-height: 260px;
+    padding: 10px;
+    width: calc(20% - 20px);
+}
+
 body{
     background: lightgray;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.clearfix{
+    clear: both; /*Lo que hace es que los objetos debajo del nav, NO se suban*/
+}
+
 #container{
-    width: 70%;
-    margin: 0px auto;
     border: 1px solid black;
+    margin: 0px auto;
+    width: 70%;
+}
+
+#content{
+    background: green;
+    float: left;
+    min-height: 200px;
+    padding: 40px;
+    width: calc(80% - 80px);
+}
+
+footer{
+    background: black;
+    color: white;
+    height: 50px;
+    line-height: 50px; /*Centra de manera vertical*/
+    text-align: center;
 }
 
 header{
     background: red;
-    min-height: 100px;
-    width: 100%;
-    text-align: center;
-    line-height: 100px;
-    color: white;
     border-bottom: 3px dashed black;
+    color: white;
+    line-height: 100px;
+    min-height: 100px;
+    text-align: center;
+    width: 100%;
 }
 
 nav{
     background: lightpink;
-    height: 50px;
     border-bottom: 1px solid black;
+    height: 50px;
 }
 
 nav ul li{
     float: left;
+    line-height: 30px;
     list-style: none;
     margin: 10px;
-    line-height: 30px;
 }
