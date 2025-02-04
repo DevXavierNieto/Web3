@@ -4,14 +4,58 @@
     box-sizing: border-box;
 }
 
+.aCont {
+    background: gray;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.aCont input {
+    margin: 10px 0;
+    width: 80%;
+    padding: 10px;
+}
+
+.aServices{
+    background: white;
+    height: 100%;
+}
+
 body{
     background: #DCEAF7;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 10px 0;
 }
 
 header{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+.img{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image.jpg");
+    background-size: cover; /* Asegura que la imagen cubra todo el ancho */
+    background-position: center; 
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px;
 }
 
 nav{
@@ -32,61 +76,15 @@ nav ul li{
     margin: 0px 80px;
 }
 
-.img{
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url("image.jpg");
-    background-size: cover; /* Asegura que la imagen cubra todo el ancho */
-    background-position: center; /* Centra la imagen */
-    color: white;
-    text-align: center;
-    line-height: 1.5;
-    padding: 20px;
-}
-
 section{
     text-align: center;
 }
 
 .services{
-    display: flex;
-    justify-content: center;
-    border: 2px solid black;
-}
-
-.aServices{
-    background: white;
-    width: 40%;
-    height: 100px;
-}
-
-.aServices p{
-    margin: 0px 80px;
-}
-
-.contacto {
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0 10px 0;
-}
-
-.aCont {
-    background: gray;
-    margin-top: 10px;
-    border-radius: 15px;
     border: 2px solid black;
-    width: 30%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;}
-
-.aCont input {
-    margin: 10px 0;
-    width: 80%;
-    padding: 10px;
+    margin: auto;
 }
