@@ -7,38 +7,39 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+    <!--
+    tablericons.com es para los logos, es muy buena
+    -->
     <header>
-    <h1>HALCONES</h1>
-    <h2>desarrollo</h2>
+    <h1>HALCONES <span>desarrollo</span></h1>
     </header>
     <nav>
         <ul>
-            <li><h2><h2><a>Inicio</a></h2></li>
-            <li><h2><a>Nosotros</a></h2></li>
-            <li><h2><a>Clientes</a></h2></li>
-            <li><h2><a>Contacto</a></h2></li>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
         </ul>
     </nav>
-    <div class="img">
-        <h3>Diseño y desarrollo web</h3>
+    <section class="img">
+        <h3>Diseño y desarrollo web span <spam>Guanajuato</spam></h3>
         <img class="UbLogo" src="map.png" alt="Diseño web">
-        <h3>Guanajuato</h3>
-    </div>
+    </section>
     <section>
         <h2>Servicios</h2>
         <div class="services">
             <article class="aServices">
-                <p class="ASTitle">Diseño web</p>
+                <h3 class="ASTitle">Diseño web</h3>
                 <img class="ASLogo" src="world-wide-web.png" alt="Diseño web">
                 <p class="ASDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, repudiandae.</p>
             </article>
             <article class="aServices">
-                <p class="ASTitle">Aplicaciones moviles</p>
+                <h3 class="ASTitle">Aplicaciones moviles</h3>
                 <img class="ASLogo" src="smartphone.png" alt="Diseño web">
                 <p class="ASDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, omnis!</p>
             </article>
             <article class="aServices">
-                <p class="ASTitle">E-commerce</p>
+                <h3 class="ASTitle">E-commerce</h3>
                 <img class="ASLogo" src="online-store.png" alt="Diseño web">
                 <p class="ASDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, rem.</p>
             </article>
@@ -48,10 +49,20 @@
         <h2>Contacto</h2>
         <div class="contacto">
             <article class="aCont">
-                <input type="text" placeholder="Nombre" />
-                <input type="email" placeholder="Correo" />
-                <input type="text" placeholder="Mensaje" />
-                <input type="submit" value="Enviar" />
+                <form action="#">
+                    <fieldset>
+                        <legend>Favor de llenar todos los datos</legend>
+                        <label for="">Nombre:</label>
+                        <input type="text" placeholder="Nombre" />
+                        <label for="">Telefono:</label>
+                        <input type="tel" placeholder="Telefono" />
+                        <label for="">Correo:</label>
+                        <input type="email" placeholder="Correo" />
+                        <label for="">Mensaje:</label>
+                        <textarea name="" id=""></textarea>
+                        <input type="submit" value="Enviar" />
+                    </fieldset>
+                </form>
             </article>
         </div>
     </section>
